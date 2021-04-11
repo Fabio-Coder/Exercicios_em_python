@@ -1,0 +1,6 @@
+
+# 1. Preparação. Ter uma base sólida de conhecimento é vital, faça exercícios (dojopuzzles.com), prepare perguntas que fará ao recrutador(a).
+# 2. Comunicação. Valide seu entendimento do problema conversando com o(a) recrutador(a), code pensando em voz alta.
+# 3. Debug, O hábito de codar debugando é excelentte, garante maior integridade ao código e facilita ver tudo com mais clareza enquanto desenvolvendo.
+# 4. Atitude. Pensamento positivo, confiança em si e determinação de sempre entregar valor. Se os passos anteriores tiverem sido atendidos, esse não será problema.
+# 5. Treino é treino, jogo é jogo. O nervosismo é inimigo, participe de "jogos amistosos" para se acostumar com a pressão. Fazendo entrevistas sem, ou com pouco compromisso, por exemplo, só para aprender o que puder sobre o processo e avaliar seu desempenho.
