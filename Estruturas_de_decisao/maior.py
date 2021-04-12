@@ -7,7 +7,7 @@ def maior(n1: int, n2: int):
 
     >>> maior (20, 13)
     20
-    
+
     :param n1: Prmeiro valor : inteiro
     :param n2: Segundo valor : inteiro
     :return:
