@@ -68,7 +68,7 @@ Estrutura De Decisao
 2- Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo. X
 3- Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever:
     F - Feminino, M - Masculino, Sexo Inválido. X
-4- Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+4- Faça um Programa que verifique se uma letra digitada é vogal ou consoante. X
 5- Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada
     por aluno e apresentar:
     A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
