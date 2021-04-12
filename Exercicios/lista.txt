@@ -73,7 +73,7 @@ Estrutura De Decisao
     por aluno e apresentar:
     A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
     A mensagem "Reprovado", se a média for menor do que sete;
-    A mensagem "Aprovado com Distinção", se a média for igual a dez.
+    A mensagem "Aprovado com Distinção", se a média for igual a dez. X
 6- Faça um Programa que leia três números e mostre o maior deles.
 7- Faça um Programa que leia três números e mostre o maior e o menor deles.
 8- Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a
