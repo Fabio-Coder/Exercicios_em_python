@@ -14,7 +14,7 @@ def determina_genero(genero):
     >>> determina_genero('a')
     Não Declarado
 
-    :param genero: 
+    :param genero:
     :return:
     """
     sexo_informado = genero.upper()
