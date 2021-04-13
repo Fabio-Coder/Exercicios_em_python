@@ -92,7 +92,7 @@ Estrutura De Decisao
     o salário antes do reajuste;
     o percentual de aumento aplicado;
     o valor do aumento;
-    o novo salário, após o aumento.
+    o novo salário, após o aumento. X
 12- Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda,
     que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do
     Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário
@@ -111,7 +111,7 @@ Estrutura De Decisao
             Total de descontos              : R$  165,00
             Salário Liquido                 : R$  935,00
 14- Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se
-    digitar outro valor deve aparecer valor inválido.
+    digitar outro valor deve aparecer valor inválido. X
 15- Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e
     calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   Média de Aproveitamento  Conceito
