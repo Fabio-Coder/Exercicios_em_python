@@ -12,7 +12,6 @@ def turno_de_estudo(turno):
     >>> turno_de_estudo('a')
     Bom momento!
 
-
     :param turno:
     :return:
     """
