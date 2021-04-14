@@ -28,7 +28,7 @@ def triangulo(l1,l2,l3):
     if (lados[0]+lados[1]) > lados[2]:
         if (len(set(lados)) == 1):
             print ('EQUILATERO')
-        elif lados[0]==lados[1] or lados[1]==lados[2]:
+        elif (len(set(lados)) == 2):
             print ('ISOSCELES')
         else:
             print ('ESCALENO')
