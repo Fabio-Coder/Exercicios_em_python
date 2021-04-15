@@ -82,21 +82,26 @@ def separador_numeros(numero: int):
         string_unidade += str(unidade) + ' unidade'
         tem_unidade = True
 
-    if tem_centena and tem_dezena and tem_unidade:
-        string_valor += string_centena + ', ' + string_dezena + ' e ' + string_unidade
-    elif tem_centena and not (tem_dezena) and tem_unidade:
-        string_valor += string_centena + ' e ' + string_unidade
-    elif not (tem_centena) and tem_dezena and tem_unidade:
-        string_valor += string_dezena + ' e ' + string_unidade
-    elif not (tem_centena) and not (tem_dezena) and tem_unidade:
-        string_valor += string_unidade
-    elif tem_centena and not (tem_dezena) and not (tem_unidade):
-        string_valor += string_centena
-    elif not (tem_centena) and tem_dezena and not (tem_unidade):
-        string_valor += string_dezena
-    elif tem_centena and tem_dezena and not (tem_unidade):
-        string_valor += string_centena + ' e ' + string_dezena
-
+    if tem_centena:
+        if tem_dezena:
+            if tem_unidade:
+                string_valor += string_centena + ', ' + string_dezena + ' e ' + string_unidade
+            else:
+                string_valor += string_centena + ' e ' + string_dezena
+        else:
+            if tem_unidade:
+                string_valor += string_centena + ' e ' + string_unidade
+            else:
+                string_valor += string_centena
+    else:
+        if tem_dezena:
+            if tem_unidade:
+                string_valor += string_dezena + ' e ' + string_unidade
+            else:
+                string_valor += string_dezena
+        else:
+            if tem_unidade:
+                string_valor += string_unidade
 
 
     print(string_valor)
