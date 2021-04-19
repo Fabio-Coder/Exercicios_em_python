@@ -19,8 +19,10 @@ EstruturaSequencial
         o produto do dobro do primeiro com metade do segundo .
         a soma do triplo do primeiro com o terceiro.
         o terceiro elevado ao cubo. X
-12-    Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
-13-    Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+12-    Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal,
+        usando a seguinte fórmula: (72.7*altura) - 58
+13-    Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal,
+        utilizando as seguintes fórmulas:
         Para homens: (72.7*h) - 58
         Para mulheres: (62.1*h) - 44.7
 14-    João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu
