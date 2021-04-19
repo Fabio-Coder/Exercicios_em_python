@@ -1,3 +1,5 @@
+import timeit
+
 def contar_caracteres(s):
     """
     Funcao que conta os caracteres de uma string
@@ -5,7 +7,7 @@ def contar_caracteres(s):
     >>> contar_caracteres('Fabio')
     {'F': 1, 'a': 1, 'b': 1, 'i': 1, 'o': 1}
     >>> contar_caracteres('banana')
-    {'b': 1, 'a': 3, 'n': 2}
+    {'b': 1, 'a': 3, 'n': 3}
 
     :param s: string a ser contada
 
@@ -19,6 +21,8 @@ def contar_caracteres(s):
         resultado[caracter] = contagem
 
     return resultado
+
+
 
 if __name__ == '__main__':
     print(contar_caracteres('Fabio'))
