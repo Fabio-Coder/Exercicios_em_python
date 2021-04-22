@@ -130,7 +130,7 @@ Estrutura De Decisao
     Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
     Triângulo Equilátero: três lados iguais;
     Triângulo Isósceles: quaisquer dois lados iguais;
-    Triângulo Escaleno: três lados diferentes;
+    Triângulo Escaleno: três lados diferentes; X
 17- Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c.
     O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes
     situações:
@@ -239,7 +239,7 @@ Estrutura de Repetição
         ...
         5 X 10 = 50 X
 13 - Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo
-     número. Não utilize a função de potência da linguagem.
+     número. Não utilize a função de potência da linguagem. X
 14 - Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
 15 - A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
 16 - A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa que gere a série até que o valor seja maior que 500.
@@ -418,10 +418,10 @@ Estrutura de Repetição
 49 - Faça um programa que mostre os n termos da Série a seguir:
           S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
         Imprima no final a soma da série.
-50 - Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
+50 - Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos. X
 51 - Faça um programa que mostre os n termos da Série a seguir:
           S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
-        Imprima no final a soma da série. X
+        Imprima no final a soma da série.
 
 
 Exercícios Com Arquivos
