@@ -162,13 +162,13 @@ Estrutura De Decisao
 23- Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo
     (resto da divisão). X
 24- Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de
-    arredondamento.
+    arredondamento. X
 25- Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O
     resultado da operação deve ser acompanhado de uma frase que diga se o número é:
     par ou ímpar;
     positivo ou negativo;
     inteiro ou decimal.
-    26- Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+26- Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
     "Telefonou para a vítima?"
     "Esteve no local do crime?"
     "Mora perto da vítima?"
