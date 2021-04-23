@@ -801,14 +801,15 @@ Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adiv
 
 
 
-ExerciciosClasses
+Exercicios Classes
 
 
-Classe Bola: Crie uma classe que modele uma bola:
+1 - Classe Bola: Crie uma classe que modele uma bola:
 
-Atributos: Cor, circunferência, material
-Métodos: trocaCor e mostraCor
-Classe Quadrado: Crie uma classe que modele um quadrado:
+    Atributos: Cor, circunferência, material
+    Métodos: trocaCor e mostraCor
+
+2 - Classe Quadrado: Crie uma classe que modele um quadrado:
 
 Atributos: Tamanho do lado
 Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
@@ -816,7 +817,9 @@ Classe Retangulo: Crie uma classe que modele um retangulo:
 
 Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
 Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
-Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medidades de um local. Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o local.
+Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medidades de um local.
+Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o local.
+
 Classe Pessoa: Crie uma classe que modele uma pessoa:
 
 Atributos: nome, idade, peso e altura
