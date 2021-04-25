@@ -780,9 +780,12 @@ Exercicios Com Strings
     foram ignorados. Faça um programa que leia uma seqüência de caracteres, mostre−a e diga se é um
     palíndromo ou não.
 
-Verificação de CPF. Desenvolva um programa que solicite a digitação de um número de CPF no formato xxx.xxx.xxx-xx e indique se é um número válido ou inválido através da validação dos dígitos verificadores edos caracteres de formatação.
+10 - Verificação de CPF. Desenvolva um programa que solicite a digitação de um número de CPF no formato
+    xxx.xxx.xxx-xx e indique se é um número válido ou inválido através da validação dos dígitos
+    verificadores e dos caracteres de formatação.
 
-Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
+11 - Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e
+    imprima-o na tela por extenso.
 
 Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
 
