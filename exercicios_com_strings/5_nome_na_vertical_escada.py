@@ -9,7 +9,7 @@ def nome_escada(nome):
     FULA
     FULAN
     FULANO
-    
+
     :param nome:
     :return:
     """
