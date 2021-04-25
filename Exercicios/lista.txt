@@ -736,34 +736,38 @@ Exercicios Com Strings
     seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas.
     Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
-Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
+4 - Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
 
-F
-U
-L
-A
-N
-O
-Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.
+    F
+    U
+    L
+    A
+    N
+    O
 
-F
-FU
-FUL
-FULA
-FULAN
-FULANO
-Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
+5 - Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.
 
-FULANO
-FULAN
-FULA
-FUL
-FU
-F
-Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
+    F
+    FU
+    FUL
+    FULA
+    FULAN
+    FULANO
 
-Data de Nascimento: 29/10/1973
-Você nasceu em  29 de Outubro de 1973.
+6 -Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
+
+    FULANO
+    FULAN
+    FULA
+    FUL
+    FU
+    F
+
+7 - Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
+
+    Data de Nascimento: 29/10/1973
+    Você nasceu em  29 de Outubro de 1973.
+
 Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
 
 quantos espaços em branco existem na frase.
