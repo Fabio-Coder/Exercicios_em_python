@@ -7,10 +7,27 @@ def leet_generator(frase):
     que peça uma texto e transforme-o para a grafia leet speak.
 
     >>> leet_generator('Hello World!')
-    H3110 W0r1d!
+    H3110 W0R1D!
+    >>> leet_generator('Hack the world!')
+    H4CK 7H3 W0R1D!
 
     :param frase:
     :return:
     """
+    l33t_dict = {'A':'4',
+                 'G':'6',
+                 'E':'3',
+                 'L':'1',
+                 'O':'0',
+                 'S':'5',
+                 'T':'7',
+                 }
 
+    frase = frase.upper()
+
+    for i in range(len(frase)):
+        if frase[i] in l33t_dict.keys():
+            frase = frase.replace(frase[i],l33t_dict[frase[i]])
+
+    print(frase)
     
