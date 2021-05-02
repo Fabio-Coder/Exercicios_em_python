@@ -682,7 +682,7 @@ Exercícios com Funções
         3   3   3
         .....
         n   n   n   n   n   n  ... n
-    para um n informado pelo usuário. Use uma função que receba um valor n inteiro e imprima até a n-ésima linha.
+    para um n informado pelo usuário. Use uma função que receba um valor n inteiro e imprima até a n-ésima linha. X
 
  2 - Faça um programa para imprimir:
         1
@@ -692,7 +692,7 @@ Exercícios com Funções
         1   2   3   ...  n
     para um n informado pelo usuário. Use uma função que receba um valor n inteiro imprima até a n-ésima linha.
 
-3 - Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+3 - Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos. X
 
 4 - Faça um programa, com uma função que necessite de um argumento. A função retorna o valor de caractere ‘P’, se seu
     argumento for positivo, e ‘N’, se seu argumento for zero ou negativo.

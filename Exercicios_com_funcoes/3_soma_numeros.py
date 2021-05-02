@@ -14,3 +14,7 @@ def soma(n1: int,n2: int,n3: int):
     """
 
     return n1+n2+n3
+
+if __name__ == '__main__':
+    resultado = soma(128,42,30)
+    print(resultado)
