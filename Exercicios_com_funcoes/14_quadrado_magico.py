@@ -18,24 +18,23 @@ def quadrado_magico():
     if verifica_quadrado_magico(quadrado):
         print('ok')
 
+
 def verifica_quadrado_magico(vetor):
     """
     :param vetor: lista com os valores do quadrado magico
     :return: True se o quadrado for mágico
     """
     soma = []
-    somas = {0:[0,1,2],
-             1:[3,4,5],
-             2:[6,7,8],
-             3:[0,3,6],
-             4:[1,4,7],
-             5:[2,5,8],
-             6:[0,4,8],
-             7:[6,4,2],
+    somas = {0: [0, 1, 2],
+             1: [3, 4, 5],
+             2: [6, 7, 8],
+             3: [0, 3, 6],
+             4: [1, 4, 7],
+             5: [2, 5, 8],
+             6: [0, 4, 8],
+             7: [6, 4, 2],
              }
 
-    for i in range(8):
-        soma.append()
 
     soma.append(sum(vetor[0:2]))
     soma.append(sum(vetor[3:5]))
@@ -51,8 +50,12 @@ def verifica_quadrado_magico(vetor):
 
     return False
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     quadrado = [8, 3, 4, 1, 5, 9, 6, 7, 2]
 
     quadrado_magico(quadrado)
+
+    quadrado1 = [8, 7, 4, 1, 5, 2, 6, 3, 9]
+
+    quadrado_magico(quadrado1)
