@@ -76,9 +76,10 @@ def forca():
 
     print('Fim de jogo!')
 
+
 def desenha_forca(erros):
     """
-    Função que desenha ua forca
+    Função que desenha uma forca.
 
     :param erros:
     :return:
