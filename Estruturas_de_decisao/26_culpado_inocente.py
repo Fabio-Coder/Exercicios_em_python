@@ -13,3 +13,28 @@ def culpado(nome):
     :param nome:
     :return:
     """
+
+    questoes = []
+    respostas = 0
+
+    questoes.append(input('Você telefonou para a vitima? (s/n)'))
+    questoes.append(input('Esteve no local do crime? (s/n)'))
+    questoes.append(input('Mora perto da vítima? (s/n)'))
+    questoes.append(input('Devia para a vítima? (s/n)'))
+    questoes.append(input('Já trabalhou com a vítima? (s/n)'))
+
+    for i in range(5):
+        if questoes[i] == 's':
+            respostas += 1
+
+    if respostas == 5:
+        print('Assassino')
+    elif respostas >= 3:
+        print('Cúmplice')
+    elif respostas== 2:
+        print('Suspeito')
+    else:
+        print('Inocente')
+
+if __name__ == '__main__':
+    culpado('Fabio')

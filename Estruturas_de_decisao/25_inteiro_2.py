@@ -7,7 +7,7 @@ def inteiro(numero_1, numero_2):
     inteiro ou decimal.
     >>> inteiro(2,8)
     1
-    
+
     :param numero:
     :return:
     """
@@ -25,4 +25,4 @@ def inteiro(numero_1, numero_2):
     if numero_1 % 2 == 0 and numero_2 % 2 == 0:
         print('Par')
     else:
-        print(Impar)
+        print('Impar')
