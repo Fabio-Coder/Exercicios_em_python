@@ -471,6 +471,7 @@ Espaço médio ocupado: 430,26 MB
 O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
 
 Exercícios Com Listas
+
 Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
@@ -553,98 +554,111 @@ Jogador Votos           %
 10              3               37,5%
 11              1               12,5%
 O melhor jogador foi o número 9, com 4 votos, correspondendo a 50% do total de votos.
-Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete feita a um grande quantidade de organizações:
-"Qual o melhor Sistema Operacional para uso em servidores?"
 
-As possíveis respostas são:
+    Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete feita a um grande quantidade de organizações:
+    "Qual o melhor Sistema Operacional para uso em servidores?"
 
-1- Windows Server
-2- Unix
-3- Linux
-4- Netware
-5- Mac OS
-6- Outro
-Você foi contratado para desenvolver um programa que leia o resultado da enquete e informe ao final o resultado da mesma. O programa deverá ler os valores até ser informado o valor 0, que encerra a entrada dos dados. Não deverão ser aceitos valores além dos válidos para o programa (0 a 6). Os valores referentes a cada uma das opções devem ser armazenados num vetor. Após os dados terem sido completamente informados, o programa deverá calcular a percentual de cada um dos concorrentes e informar o vencedor da enquete. O formato da saída foi dado pela empresa, e é o seguinte:
-Sistema Operacional     Votos   %
--------------------     -----   ---
-Windows Server           1500   17%
-Unix                     3500   40%
-Linux                    3000   34%
-Netware                   500    5%
-Mac OS                    150    2%
-Outro                     150    2%
--------------------     -----
-Total                    8800
+    As possíveis respostas são:
 
-O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos.
-As Organizações Tabajara resolveram dar um abono aos seus colaboradores em reconhecimento ao bom resultado alcançado durante o ano que passou. Para isto contratou você para desenvolver a aplicação que servirá como uma projeção de quanto será gasto com o pagamento deste abono.
-Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
-a.Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro; a.O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo; Neste momento, não se deve ter nenhuma preocupação com colaboradores com tempo menor de casa, descontos, impostos ou outras particularidades. Seu programa deverá permitir a digitação do salário de um número indefinido (desconhecido) de salários. Um valor de salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados o programa deverá calcular o valor do abono concedido a cada colaborador, de acordo com a regra definida acima. Ao final, o programa deverá apresentar:
-O salário de cada funcionário, juntamente com o valor do abono;
-O número total de funcionário processados;
-O valor total a ser gasto com o pagamento do abono;
-O número de funcionário que receberá o valor mínimo de 100 reais;
-O maior valor pago como abono; A tela abaixo é um exemplo de execução do programa, apenas para fins ilustrativos. Os valores podem mudar a cada execução do programa.
-Projeção de Gastos com Abono
-============================
+    1- Windows Server
+    2- Unix
+    3- Linux
+    4- Netware
+    5- Mac OS
+    6- Outro
+    Você foi contratado para desenvolver um programa que leia o resultado da enquete e informe ao final o resultado da mesma. O programa deverá ler os valores até ser informado o valor 0, que encerra a entrada dos dados. Não deverão ser aceitos valores além dos válidos para o programa (0 a 6). Os valores referentes a cada uma das opções devem ser armazenados num vetor. Após os dados terem sido completamente informados, o programa deverá calcular a percentual de cada um dos concorrentes e informar o vencedor da enquete. O formato da saída foi dado pela empresa, e é o seguinte:
+    Sistema Operacional     Votos   %
+    -------------------     -----   ---
+    Windows Server           1500   17%
+    Unix                     3500   40%
+    Linux                    3000   34%
+    Netware                   500    5%
+    Mac OS                    150    2%
+    Outro                     150    2%
+    -------------------     -----
+    Total                    8800
 
-Salário: 1000
-Salário: 300
-Salário: 500
-Salário: 100
-Salário: 4500
-Salário: 0
+    O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos.
 
-Salário    - Abono
-R$ 1000.00 - R$  200.00
-R$  300.00 - R$  100.00
-R$  500.00 - R$  100.00
-R$  100.00 - R$  100.00
-R$ 4500.00 - R$  900.00
+    As Organizações Tabajara resolveram dar um abono aos seus colaboradores em reconhecimento ao bom resultado alcançado durante o ano que passou. Para isto contratou você para desenvolver a aplicação que servirá como uma projeção de quanto será gasto com o pagamento deste abono.
+    Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
+    a.Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro; a.O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo; Neste momento, não se deve ter nenhuma preocupação com colaboradores com tempo menor de casa, descontos, impostos ou outras particularidades. Seu programa deverá permitir a digitação do salário de um número indefinido (desconhecido) de salários. Um valor de salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados o programa deverá calcular o valor do abono concedido a cada colaborador, de acordo com a regra definida acima. Ao final, o programa deverá apresentar:
+    O salário de cada funcionário, juntamente com o valor do abono;
+    O número total de funcionário processados;
+    O valor total a ser gasto com o pagamento do abono;
+    O número de funcionário que receberá o valor mínimo de 100 reais;
+    O maior valor pago como abono; A tela abaixo é um exemplo de execução do programa, apenas para fins ilustrativos. Os valores podem mudar a cada execução do programa.
+    Projeção de Gastos com Abono
+    ============================
 
-Foram processados 5 colaboradores
-Total gasto com abonos: R$ 1400.00
-Valor mínimo pago a 3 colaboradores
-Maior valor de abono pago: R$ 900.00
-Faça um programa que carregue uma lista com os modelos de cinco carros (exemplo de modelos: FUSCA, GOL, VECTRA etc). Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses carros faz com um litro de combustível. Calcule e mostre:
-O modelo do carro mais econômico;
-Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000 quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 2,25 o litro. Abaixo segue uma tela de exemplo. O disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa.
-Comparativo de Consumo de Combustível
+    Salário: 1000
+    Salário: 300
+    Salário: 500
+    Salário: 100
+    Salário: 4500
+    Salário: 0
 
-Veículo 1
-Nome: fusca
-Km por litro: 7
-Veículo 2
-Nome: gol
-Km por litro: 10
-Veículo 3
-Nome: uno
-Km por litro: 12.5
-Veículo 4
-Nome: Vectra
-Km por litro: 9
-Veículo 5
-Nome: Peugeout
-Km por litro: 14.5
+    Salário    - Abono
+    R$ 1000.00 - R$  200.00
+    R$  300.00 - R$  100.00
+    R$  500.00 - R$  100.00
+    R$  100.00 - R$  100.00
+    R$ 4500.00 - R$  900.00
 
-Relatório Final
- 1 - fusca           -    7.0 -  142.9 litros - R$ 321.43
- 2 - gol             -   10.0 -  100.0 litros - R$ 225.00
- 3 - uno             -   12.5 -   80.0 litros - R$ 180.00
- 4 - vectra          -    9.0 -  111.1 litros - R$ 250.00
- 5 - peugeout        -   14.5 -   69.0 litros - R$ 155.17
-O menor consumo é do peugeout.
-Sua organização acaba de contratar um estagiário para trabalhar no Suporte de Informática, com a intenção de fazer um levantamento nas sucatas encontradas nesta área. A primeira tarefa dele é testar todos os cerca de 200 mouses que se encontram lá, testando e anotando o estado de cada um deles, para verificar o que se pode aproveitar deles.
-Foi requisitado que você desenvolva um programa para registrar este levantamento. O programa deverá receber um número indeterminado de entradas, cada uma contendo: um número de identificação do mouse o tipo de defeito:
-necessita da esfera;
-necessita de limpeza; a.necessita troca do cabo ou conector; a.quebrado ou inutilizado Uma identificação igual a zero encerra o programa. Ao final o programa deverá emitir o seguinte relatório:
-Quantidade de mouses: 100
+    Foram processados 5 colaboradores
+    Total gasto com abonos: R$ 1400.00
+    Valor mínimo pago a 3 colaboradores
+    Maior valor de abono pago: R$ 900.00
 
-Situação                        Quantidade              Percentual
-1- necessita da esfera                  40                     40%
-2- necessita de limpeza                 30                     30%
-3- necessita troca do cabo ou conector  15                     15%
-4- quebrado ou inutilizado              15                     15%
+    Faça um programa que carregue uma lista com os modelos de cinco carros (exemplo de modelos: FUSCA, GOL, VECTRA etc). Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses carros faz com um litro de combustível. Calcule e mostre:
+    O modelo do carro mais econômico;
+    Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000 quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 2,25 o litro. Abaixo segue uma tela de exemplo. O disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa.
+    Comparativo de Consumo de Combustível
+
+    Veículo 1
+    Nome: fusca
+    Km por litro: 7
+    Veículo 2
+    Nome: gol
+    Km por litro: 10
+    Veículo 3
+    Nome: uno
+    Km por litro: 12.5
+    Veículo 4
+    Nome: Vectra
+    Km por litro: 9
+    Veículo 5
+    Nome: Peugeout
+    Km por litro: 14.5
+
+    Relatório Final
+     1 - fusca           -    7.0 -  142.9 litros - R$ 321.43
+     2 - gol             -   10.0 -  100.0 litros - R$ 225.00
+     3 - uno             -   12.5 -   80.0 litros - R$ 180.00
+     4 - vectra          -    9.0 -  111.1 litros - R$ 250.00
+     5 - peugeout        -   14.5 -   69.0 litros - R$ 155.17
+    O menor consumo é do peugeout.
+
+    Sua organização acaba de contratar um estagiário para trabalhar no Suporte de Informática, com a intenção de fazer
+    um levantamento nas sucatas encontradas nesta área. A primeira tarefa dele é testar todos os cerca de 200 mouses
+    que se encontram lá, testando e anotando o estado de cada um deles, para verificar o que se pode aproveitar deles.
+    Foi requisitado que você desenvolva um programa para registrar este levantamento. O programa deverá receber um
+    número indeterminado de entradas, cada uma contendo: um número de identificação do mouse o tipo de defeito:
+    1 - necessita da esfera;
+    2 - necessita de limpeza;
+    3 - necessita troca do cabo ou conector;
+    4 - quebrado ou inutilizado
+    Uma identificação igual a zero encerra o programa. Ao final o programa deverá emitir o seguinte relatório:
+
+    Quantidade de mouses: 100
+
+    Situação                        Quantidade              Percentual
+    1- necessita da esfera                  40                     40%
+    2- necessita de limpeza                 30                     30%
+    3- necessita troca do cabo ou conector  15                     15%
+    4- quebrado ou inutilizado              15                     15%
+
+
 A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
 alexandre       456123789
 anderson        1245698456
@@ -716,8 +730,8 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 
 
 
-ExerciciosComStrings
-Voltar para a ListaDeExercicios
+Exercicios Com Strings
+
 
 
 Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento. Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
@@ -729,33 +743,37 @@ Tamanho de "Brasil Hexa 2006": 16 caracteres
 Tamanho de "Brasil! Hexa 2006!": 18 caracteres
 As duas strings são de tamanhos diferentes.
 As duas strings possuem conteúdo diferente.
-Nome ao contrário em maiúsculas. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
-Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
+    Nome ao contrário em maiúsculas. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o
+    nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o
+    usuário pode digitar letras maiúsculas ou minúsculas.
 
-F
-U
-L
-A
-N
-O
-Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.
+    Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
 
-F
-FU
-FUL
-FULA
-FULAN
-FULANO
-Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
+    F
+    U
+    L
+    A
+    N
+    O
 
-FULANO
-FULAN
-FULA
-FUL
-FU
-F
-Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
+    Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.
+
+    F
+    FU
+    FUL
+    FULA
+    FULAN
+    FULANO
+    Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
+
+    FULANO
+    FULAN
+    FULA
+    FUL
+    FU
+    F
+    Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
 
 Data de Nascimento: 29/10/1973
 Você nasceu em  29 de Outubro de 1973.
@@ -769,27 +787,31 @@ Verificação de CPF. Desenvolva um programa que solicite a digitação de um n�
 
 Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
 
-Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
+10 - Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
 
-Digite uma letra: A
--> Você errou pela 1ª vez. Tente de novo!
+    Digite uma letra: A
+    -> Você errou pela 1ª vez. Tente de novo!
 
-Digite uma letra: O
-A palavra é: _ _ _ _ O
+    Digite uma letra: O
+    A palavra é: _ _ _ _ O
 
-Digite uma letra: E
-A palavra é: _ E _ _ O
+    Digite uma letra: E
+    A palavra é: _ E _ _ O
 
-Digite uma letra: S
--> Você errou pela 2ª vez. Tente de novo!
-Valida e corrige número de telefone. Faça um programa que leia um número de telefone, e corrija o número no caso deste conter somente 7 dígitos, acrescentando o '3' na frente. O usuário pode informar o número com ou sem o traço separador.
+    Digite uma letra: S
+    -> Você errou pela 2ª vez. Tente de novo!
 
-Valida e corrige número de telefone
-Telefone: 461-0133
-Telefone possui 7 dígitos. Vou acrescentar o digito três na frente.
-Telefone corrigido sem formatação: 34610133
-Telefone corrigido com formatação: 3461-0133
-Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
+11 - Valida e corrige número de telefone. Faça um programa que leia um número de telefone, e corrija o número no caso
+    deste conter somente 7 dígitos, acrescentando o '3' na frente. O usuário pode informar o número com ou sem o
+    traço separador.
+
+12 -    Valida e corrige número de telefone
+    Telefone: 461-0133
+    Telefone possui 7 dígitos. Vou acrescentar o digito três na frente.
+    Telefone corrigido sem formatação: 34610133
+    Telefone corrigido com formatação: 3461-0133
+
+13 - Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
 
 14-    Leet spek generator. Leet é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como
     números por exemplo. A própria palavra leet admite muitas variações, como l33t ou 1337. O uso do leet reflete uma

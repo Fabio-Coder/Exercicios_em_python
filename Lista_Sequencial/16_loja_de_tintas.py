@@ -1,4 +1,6 @@
 from math import ceil
+
+
 def loja_de_tintas(area):
     """
     16-    Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área
@@ -15,8 +17,6 @@ def loja_de_tintas(area):
     :param area:
     :return:
     """
-    qtd_latas = ceil((area/3)/18)
+    qtd_latas = ceil((area / 3) / 18)
     print(qtd_latas)
-    print(qtd_latas*80)
-
-
+    print(qtd_latas * 80)
