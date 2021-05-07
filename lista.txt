@@ -837,14 +837,16 @@ Número por extenso. Escreva um programa que solicite ao usuário a digitação 
 ExerciciosClasses
 
 
-Classe Bola: Crie uma classe que modele uma bola:
+1 - Classe Bola: Crie uma classe que modele uma bola:
 
-Atributos: Cor, circunferência, material
-Métodos: trocaCor e mostraCor
-Classe Quadrado: Crie uma classe que modele um quadrado:
+    Atributos: Cor, circunferência, material
+    Métodos: trocaCor e mostraCor
 
-Atributos: Tamanho do lado
-Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+2 - Classe Quadrado: Crie uma classe que modele um quadrado:
+
+    Atributos: Tamanho do lado
+    Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+
 Classe Retangulo: Crie uma classe que modele um retangulo:
 
 Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
