@@ -7,11 +7,18 @@ class Bola:
     """
 
     def __init__(self):
+        self.tipo = 'bola'
+
+    def cor(self,cor):
         self.cor = cor
+
+    def circunferencia(self,circunferencia):
         self.circunferencia = circunferencia
+
+    def material(self,material):
         self.material = material
 
-    def trocaCor(self):
+    def trocaCor(self,cor):
         self.cor = cor
 
     def mostraCor(self):
