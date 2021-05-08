@@ -798,7 +798,8 @@ Verificação de CPF. Desenvolva um programa que solicite a digitação de um n�
 
 Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
 
-10 - Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
+10 - Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e
+    escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
 
     Digite uma letra: A
     -> Você errou pela 1ª vez. Tente de novo!
@@ -822,7 +823,10 @@ Número por extenso. Escreva um programa que solicite ao usuário a digitação 
     Telefone corrigido sem formatação: 34610133
     Telefone corrigido com formatação: 3461-0133
 
-13 - Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
+13 - Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será
+    mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto e
+    escolherá uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra
+    deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
 
 14-    Leet spek generator. Leet é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como
     números por exemplo. A própria palavra leet admite muitas variações, como l33t ou 1337. O uso do leet reflete uma
@@ -834,7 +838,7 @@ Número por extenso. Escreva um programa que solicite ao usuário a digitação 
 
 
 
-ExerciciosClasses
+Exercicios com Classes
 
 
 1 - Classe Bola: Crie uma classe que modele uma bola:
@@ -847,25 +851,31 @@ ExerciciosClasses
     Atributos: Tamanho do lado
     Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
 
-Classe Retangulo: Crie uma classe que modele um retangulo:
+    Classe Retangulo: Crie uma classe que modele um retangulo:
 
-Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
-Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
-Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medidades de um local. Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o local.
-Classe Pessoa: Crie uma classe que modele uma pessoa:
+    Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
+    Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
+    Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medidades de um local. Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o local.
 
-Atributos: nome, idade, peso e altura
-Métodos: Envelhercer, engordar, emagrecer, crescer. Obs: Por padrão, a cada ano que nossa pessoa envelhece, sendo a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
-Classe Conta Corrente: Crie uma classe para implementar uma conta corrente. A classe deve possuir os seguintes atributos: número da conta, nome do correntista e saldo. Os métodos são os seguintes: alterarNome, depósito e saque; No construtor, saldo é opcional, com valor default zero e os demais atributos são obrigatórios.
+3 -    Classe Pessoa: Crie uma classe que modele uma pessoa:
 
-Classe TV: Faça um programa que simule um televisor criando-o como um objeto. O usuário deve ser capaz de informar o número do canal e aumentar ou diminuir o volume. Certifique-se de que o número do canal e o nível do volume permanecem dentro de faixas válidas.
+    Atributos: nome, idade, peso e altura
+    Métodos: Envelhercer, engordar, emagrecer, crescer. Obs: Por padrão, a cada ano que nossa pessoa envelhece,
+    sendo a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
 
-Classe Bichinho Virtual:Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
+4 - Classe Conta Corrente: Crie uma classe para implementar uma conta corrente. A classe deve possuir os seguintes
+    atributos: número da conta, nome do correntista e saldo. Os métodos são os seguintes: alterarNome, depósito e
+    saque; No construtor, saldo é opcional, com valor default zero e os demais atributos são obrigatórios.
+
+5 - Classe TV: Faça um programa que simule um televisor criando-o como um objeto. O usuário deve ser capaz de informar o número do canal e aumentar ou diminuir o volume. Certifique-se de que o número do canal e o nível do volume permanecem dentro de faixas válidas.
+
+6 - Classe Bichinho Virtual:Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
 
 Atributos: Nome, Fome, Saúde e Idade b. Métodos: Alterar Nome, Fome, Saúde e Idade; Retornar Nome, Fome, Saúde e Idade Obs: Existe mais uma informação que devemos levar em consideração, o Humor do nosso tamagushi, este humor é uma combinação entre os atributos Fome e Saúde, ou seja, um campo calculado, então não devemos criar um atributo para armazenar esta informação por que ela pode ser calculada a qualquer momento.
-Classe Macaco: Desenvolva uma classe Macaco,que possua os atributos nome e bucho (estomago) e pelo menos os métodos comer(), verBucho() e digerir(). Faça um programa ou teste interativamente, criando pelo menos dois macacos, alimentando-os com pelo menos 3 alimentos diferentes e verificando o conteúdo do estomago a cada refeição. Experimente fazer com que um macaco coma o outro. É possível criar um macaco canibal?
 
-Classe Ponto e Retangulo: Faça um programa completo utilizando funções e classes que:
+7 - Classe Macaco: Desenvolva uma classe Macaco,que possua os atributos nome e bucho (estomago) e pelo menos os métodos comer(), verBucho() e digerir(). Faça um programa ou teste interativamente, criando pelo menos dois macacos, alimentando-os com pelo menos 3 alimentos diferentes e verificando o conteúdo do estomago a cada refeição. Experimente fazer com que um macaco coma o outro. É possível criar um macaco canibal?
+
+8 - Classe Ponto e Retangulo: Faça um programa completo utilizando funções e classes que:
 
 Possua uma classe chamada Ponto, com os atributos x e y.
 Possua uma classe chamada Retangulo, com os atributos largura e altura.
@@ -876,19 +886,21 @@ Cada objeto deve ter um vértice de partida, por exemplo, o vértice inferior es
 A função para encontrar o centro do retângulo deve retornar o valor para um objeto do tipo ponto que indique os valores de x e y para o centro do objeto.
 O valor do centro do objeto deve ser mostrado na tela
 Crie um menu para alterar os valores do retângulo e imprimir o centro deste retângulo.
-Classe Bomba de Combustível: Faça um programa completo utilizando classes e métodos que:
 
-Possua uma classe chamada bombaCombustível, com no mínimo esses atributos:
-tipoCombustivel.
-valorLitro
-quantidadeCombustivel
-Possua no mínimo esses métodos:
-abastecerPorValor( ) – método onde é informado o valor a ser abastecido e mostra a quantidade de litros que foi colocada no veículo
-abastecerPorLitro( ) – método onde é informado a quantidade em litros de combustível e mostra o valor a ser pago pelo cliente.
-alterarValor( ) – altera o valor do litro do combustível.
-alterarCombustivel( ) – altera o tipo do combustível.
-alterarQuantidadeCombustivel( ) – altera a quantidade de combustível restante na bomba.
-OBS: Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba.
+9 - Classe Bomba de Combustível: Faça um programa completo utilizando classes e métodos que:
+
+    Possua uma classe chamada bombaCombustível, com no mínimo esses atributos:
+    tipoCombustivel.
+    valorLitro
+    quantidadeCombustivel
+    Possua no mínimo esses métodos:
+    abastecerPorValor( ) – método onde é informado o valor a ser abastecido e mostra a quantidade de litros que foi colocada no veículo
+    abastecerPorLitro( ) – método onde é informado a quantidade em litros de combustível e mostra o valor a ser pago pelo cliente.
+    alterarValor( ) – altera o valor do litro do combustível.
+    alterarCombustivel( ) – altera o tipo do combustível.
+    alterarQuantidadeCombustivel( ) – altera a quantidade de combustível restante na bomba.
+    OBS: Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba.
+
 Classe carro: Implemente uma classe chamada Carro com as seguintes propriedades:
 
 Um veículo tem um certo consumo de combustível (medidos em km / litro) e uma certa quantidade de combustível no tanque.
