@@ -8,9 +8,6 @@ def intervalo_numerico(n1, n2):
     3
     4
 
-    :param n1:
-    :param n2: 
-    :return:
     """
 
     for i in range(n1 + 1, n2):

@@ -18,11 +18,8 @@ def forca():
     Digite uma letra: S
     -> Você errou pela 2ª vez. Tente de novo!
 
-
-    :param caracter:
-    :return:
     """
-    ##### Esse trecho pega uma palavra aleatoria do arquivo forca.txt na mesma pasta
+    # Esse trecho pega uma palavra aleatoria do arquivo forca.txt na mesma pasta
     lista_de_palavras = []
     arquivo = open("forca.txt", "r")
 

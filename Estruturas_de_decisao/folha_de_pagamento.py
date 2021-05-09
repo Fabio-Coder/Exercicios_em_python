@@ -34,9 +34,6 @@ def folha_de_pagamento(valor_hora, qtde_horas):
     Total de descontos: R$ 1320.0
     Salário Liquido: R$ 3080.0
 
-    :param valor_hora: 
-    :param qtde_horas: 
-    :return: 
     """
 
     salario_bruto = float(valor_hora * qtde_horas)

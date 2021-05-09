@@ -6,10 +6,6 @@ def maior_menor(n1, n2, n3):
     >>> maior_menor(3,2,1)
     O maior númeor é o 3, e o menor é o 1.
 
-    :param n1: 
-    :param n2: 
-    :param n3: 
-    :return: 
     """
 
     maior = 0
