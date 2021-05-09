@@ -17,7 +17,7 @@ def imprimir_n(n):
     :param n:
     :return:
     """
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
         print(repete_numero(i))
 
 

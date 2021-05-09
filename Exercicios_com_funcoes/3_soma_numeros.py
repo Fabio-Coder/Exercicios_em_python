@@ -1,4 +1,4 @@
-def soma(n1: int,n2: int,n3: int):
+def soma(n1: int, n2: int, n3: int):
     """
     3 - Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
 
@@ -13,8 +13,9 @@ def soma(n1: int,n2: int,n3: int):
     :return: Soma dos números.
     """
 
-    return n1+n2+n3
+    return n1 + n2 + n3
+
 
 if __name__ == '__main__':
-    resultado = soma(128,42,30)
+    resultado = soma(128, 42, 30)
     print(resultado)

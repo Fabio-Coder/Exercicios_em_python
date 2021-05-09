@@ -1,4 +1,4 @@
-def imprime_n(n:int):
+def imprime_n(n: int):
     """
      2 - Faça um programa para imprimir:
         1
@@ -12,10 +12,11 @@ def imprime_n(n:int):
     :return:
     """
 
-    for i in range(1,n+1):
-        for j in range (1,i+1):
-            print(f'{j} ',end='')
+    for i in range(1, n + 1):
+        for j in range(1, i + 1):
+            print(f'{j} ', end='')
         print('')
+
 
 if __name__ == '__main__':
     imprime_n(5)

@@ -25,17 +25,6 @@ def verifica_quadrado_magico(vetor):
     :return: True se o quadrado for mágico
     """
     soma = []
-    somas = {0: [0, 1, 2],
-             1: [3, 4, 5],
-             2: [6, 7, 8],
-             3: [0, 3, 6],
-             4: [1, 4, 7],
-             5: [2, 5, 8],
-             6: [0, 4, 8],
-             7: [6, 4, 2],
-             }
-
-
     soma.append(sum(vetor[0:2]))
     soma.append(sum(vetor[3:5]))
     soma.append(sum(vetor[6:8]))
