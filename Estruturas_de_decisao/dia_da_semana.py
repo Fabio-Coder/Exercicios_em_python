@@ -1,4 +1,4 @@
-def dia_da_semana (dia:int):
+def dia_da_semana(dia: int):
     """
     14- Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se
     digitar outro valor deve aparecer valor inválido.
@@ -24,8 +24,8 @@ def dia_da_semana (dia:int):
     :return:
     """
 
-    #Aqui seria o caso de se montar um dicionário e percorrer para retornar os dias,
-    #mas irei fazer com vários ifs pois esse é o propósito dessa lista
+    # Aqui seria o caso de se montar um dicionário e percorrer para retornar os dias,
+    # mas irei fazer com vários ifs pois esse é o propósito dessa lista
 
     if dia == 1:
         print('Domingo')

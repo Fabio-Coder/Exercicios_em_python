@@ -1,4 +1,4 @@
-def media(a,b,c,d):
+def media(a, b, c, d):
     """
     4-    Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
@@ -12,4 +12,4 @@ def media(a,b,c,d):
     :return: float
     """
 
-    return ((a+b+c+d)/4)
+    return ((a + b + c + d) / 4)

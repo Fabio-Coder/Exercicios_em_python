@@ -14,4 +14,4 @@ def nome_escada_invertida(nome):
     """
 
     for i in range(len(nome)):
-        print(nome[:len(nome)-i])
+        print(nome[:len(nome) - i])

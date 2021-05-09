@@ -15,4 +15,4 @@ def nome_escada(nome):
     """
 
     for i in range(len(nome)):
-        print(nome[:i+1])
+        print(nome[:i + 1])

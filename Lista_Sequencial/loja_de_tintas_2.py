@@ -28,7 +28,6 @@ def loja_de_tintas(area):
     quantidade_latas = 0
     quantidade_galoes = 0
 
-
     while quantidade_de_litros > 18:
         quantidade_de_litros -= 18
         quantidade_latas += 1

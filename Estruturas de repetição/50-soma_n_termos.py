@@ -15,7 +15,7 @@ def soma_n_termos(n):
 
     soma = 0
 
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
         soma += 1 / i
 
-    print(round(soma,2))
+    print(round(soma, 2))

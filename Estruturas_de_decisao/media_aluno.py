@@ -1,4 +1,4 @@
-def media_aluno(nota1:float,nota2:float):
+def media_aluno(nota1: float, nota2: float):
     """
     5- Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada
     por aluno e apresentar:
@@ -18,10 +18,10 @@ def media_aluno(nota1:float,nota2:float):
     :return:
     """
 
-    media = (nota1 + nota2)/2
+    media = (nota1 + nota2) / 2
     if media < 7:
         print('Reprovado')
     elif media == 10:
         print('Aprovado com Distinção')
     else:
-        print ('Aprovado')
+        print('Aprovado')

@@ -9,20 +9,21 @@ class Bola:
     def __init__(self):
         self.tipo = 'bola'
 
-    def cor(self,cor):
+    def cor(self, cor):
         self.cor = cor
 
-    def circunferencia(self,circunferencia):
+    def circunferencia(self, circunferencia):
         self.circunferencia = circunferencia
 
-    def material(self,material):
+    def material(self, material):
         self.material = material
 
-    def trocaCor(self,cor):
+    def trocaCor(self, cor):
         self.cor = cor
 
     def mostraCor(self):
         print(self.cor)
+
 
 if __name__ == '__main__':
     bola = Bola()

@@ -19,11 +19,11 @@ def calculo_de_tinta(area):
     :param area:
     :return:
     """
-    
+
     rendimento_lata = 18 * 3
 
     quantidade_de_latas = ceil(area / rendimento_lata)
     valor_total = float(quantidade_de_latas * 80)
 
-    print('Quantidade de latas:',quantidade_de_latas)
-    print('Valor total: R$',valor_total)
+    print('Quantidade de latas:', quantidade_de_latas)
+    print('Valor total: R$', valor_total)

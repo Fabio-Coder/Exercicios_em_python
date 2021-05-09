@@ -24,10 +24,10 @@ class Quadrado():
 
 
 if __name__ == '__main__':
-   q = Quadrado()
-   q.lado = 10
-   q.valor_lado()
-   q.area()
-   q.altera_lado(20)
-   q.valor_lado()
-   q.area()
+    q = Quadrado()
+    q.lado = 10
+    q.valor_lado()
+    q.area()
+    q.altera_lado(20)
+    q.valor_lado()
+    q.area()

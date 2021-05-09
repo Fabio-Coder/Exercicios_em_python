@@ -1,4 +1,4 @@
-def par_impar (numero):
+def par_impar(numero):
     """
     23- Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo
     (resto da divisão).
@@ -12,4 +12,4 @@ def par_impar (numero):
     :return:
     """
 
-    print ('Par' if numero % 2 == 0 else 'Impar')
+    print('Par' if numero % 2 == 0 else 'Impar')

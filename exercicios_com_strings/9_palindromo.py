@@ -17,7 +17,7 @@ def palindromo(frase):
     :return:
     """
 
-    frase_sem_espaco = frase.replace(' ','')
+    frase_sem_espaco = frase.replace(' ', '')
     frase_sem_espaco = frase_sem_espaco.upper()
 
     if frase_sem_espaco[::-1] == frase_sem_espaco:

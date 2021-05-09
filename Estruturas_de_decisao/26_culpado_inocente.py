@@ -31,10 +31,11 @@ def culpado(nome):
         print('Assassino')
     elif respostas >= 3:
         print('Cúmplice')
-    elif respostas== 2:
+    elif respostas == 2:
         print('Suspeito')
     else:
         print('Inocente')
+
 
 if __name__ == '__main__':
     culpado('Fabio')

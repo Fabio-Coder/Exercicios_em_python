@@ -18,28 +18,29 @@ import timeit
 # RegEx responsável por analisar o formato de um IP
 ip_re = re.compile(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$')
 # RegEx responsável por analisar o conteúdo de um IP
-conteudo_ip_re = re.compile(r'^'+\
-        r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.'+\
-        r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.'+\
-        r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.'+\
-        r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])$'
-        )
+conteudo_ip_re = re.compile(r'^' + \
+                            r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.' + \
+                            r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.' + \
+                            r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\.' + \
+                            r'(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])$'
+                            )
 # Lambda que informa caso um número esteja dentro ou fora do intervalo
-eh_valido = lambda n : not(255 >= int(n) >= 0)
+eh_valido = lambda n: not (255 >= int(n) >= 0)
 
 # Tupla que contém os dados a serem analisados (IPs válidos ou não)
 dados = (
-        '10.0.2.1',
-        '192.168.1.1',
-        'endereço.ip.incorreto',
-        '172.16.32.1',
-        '10.0.0.396',
-        'outro.endereço.ip.errado',
-        '172.16.80.1',
-        '172.erro.80.2',
-        'Com certeza isso não é um IP!!!',
-        '172.16.80.4',
-        )
+    '10.0.2.1',
+    '192.168.1.1',
+    'endereço.ip.incorreto',
+    '172.16.32.1',
+    '10.0.0.396',
+    'outro.endereço.ip.errado',
+    '172.16.80.1',
+    '172.erro.80.2',
+    'Com certeza isso não é um IP!!!',
+    '172.16.80.4',
+)
+
 
 def valida_py():
     '''Função responsável por validar os endereços IPs na tupla dados'''
@@ -56,8 +57,9 @@ def valida_py():
             continue
         else:
             # IP Válido
-            #print 'IP Válido:',endereco
+            # print 'IP Válido:',endereco
             pass
+
 
 def valida_py2():
     '''Função responsável por validar os endereços IPs na tupla dados
@@ -72,8 +74,9 @@ def valida_py2():
                 break
         else:
             # IP Valido
-            #print 'IP Valido:',endereco
+            # print 'IP Valido:',endereco
             pass
+
 
 def valida_tudo_py():
     '''Função responsável por validar o conteúdo dos endereços IPs
@@ -90,8 +93,9 @@ def valida_tudo_py():
             if any(map(eh_valido, campos)):
                 continue
             # IP Valido
-            #print 'IP Valido:',endereco
+            # print 'IP Valido:',endereco
             pass
+
 
 def valida_er():
     '''Função responsável por validar os endereços IPs na tupla dados
@@ -101,8 +105,9 @@ def valida_er():
         # Verifica se o endereço IP "casa" com a expressão regular
         if ip_re.match(endereco):
             # IP Válido
-            #print 'IP Válido:',endereco
+            # print 'IP Válido:',endereco
             pass
+
 
 def valida_tudo_er():
     '''Função responsável por validar o conteúdo dos endereços IPs na tupla
@@ -112,19 +117,21 @@ def valida_tudo_er():
         # Verifica se o endereço IP "casa" com a expressão regular
         if conteudo_ip_re.match(endereco):
             # IP Válido
-            #print 'IP Válido:',endereco
+            # print 'IP Válido:',endereco
             pass
 
+
 def cronometro(func):
-    t = timeit.Timer(setup='from __main__ import '+ func, stmt=func+'()')
-    print (func.ljust(16)+':', t.timeit(number=20000))
+    t = timeit.Timer(setup='from __main__ import ' + func, stmt=func + '()')
+    print(func.ljust(16) + ':', t.timeit(number=20000))
+
 
 if __name__ == '__main__':
-    print ('Python timing...')
+    print('Python timing...')
     cronometro('valida_py')
     cronometro('valida_py2')
     cronometro('valida_tudo_py')
 
-    print ('\nRegEx timing...')
+    print('\nRegEx timing...')
     cronometro('valida_er')
     cronometro('valida_tudo_er')

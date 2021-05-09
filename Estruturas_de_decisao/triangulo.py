@@ -1,4 +1,4 @@
-def triangulo(l1,l2,l3):
+def triangulo(l1, l2, l3):
     """
     16- Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um
     triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
@@ -23,14 +23,14 @@ def triangulo(l1,l2,l3):
     :return:
     """
 
-    lados = [l1,l2,l3]
+    lados = [l1, l2, l3]
     lados.sort()
-    if (lados[0]+lados[1]) > lados[2]:
+    if (lados[0] + lados[1]) > lados[2]:
         if (len(set(lados)) == 1):
-            print ('EQUILATERO')
+            print('EQUILATERO')
         elif (len(set(lados)) == 2):
-            print ('ISOSCELES')
+            print('ISOSCELES')
         else:
-            print ('ESCALENO')
+            print('ESCALENO')
     else:
-        print ('Não é um triangulo')
+        print('Não é um triangulo')

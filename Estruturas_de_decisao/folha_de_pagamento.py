@@ -1,4 +1,4 @@
-def folha_de_pagamento (valor_hora,qtde_horas):
+def folha_de_pagamento(valor_hora, qtde_horas):
     """
     12- Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda,
     que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do
@@ -38,7 +38,7 @@ def folha_de_pagamento (valor_hora,qtde_horas):
     :param qtde_horas: 
     :return: 
     """
-    
+
     salario_bruto = float(valor_hora * qtde_horas)
     ir = 0
     inss = salario_bruto * 0.1
@@ -46,7 +46,6 @@ def folha_de_pagamento (valor_hora,qtde_horas):
     percentual = 0
     descontos = 0
 
-        
     if salario_bruto <= 900:
         ir = 0
     elif (salario_bruto <= 1500) and (salario_bruto > 900):
@@ -62,9 +61,9 @@ def folha_de_pagamento (valor_hora,qtde_horas):
     descontos = ir + inss
     salario_liquido = salario_bruto - descontos
 
-    print (f'Salário Bruto: ({valor_hora} * {qtde_horas}): R$ {salario_bruto}')
-    print (f'(-) IR ({percentual}%): R$ {ir}')
-    print (f'(-) INSS (10%): R$ {inss}')
-    print (f'FGTS (11%): R$ {fgts}')
-    print (f'Total de descontos: R$ {descontos}')
-    print (f'Salário Liquido: R$ {salario_liquido}')
+    print(f'Salário Bruto: ({valor_hora} * {qtde_horas}): R$ {salario_bruto}')
+    print(f'(-) IR ({percentual}%): R$ {ir}')
+    print(f'(-) INSS (10%): R$ {inss}')
+    print(f'FGTS (11%): R$ {fgts}')
+    print(f'Total de descontos: R$ {descontos}')
+    print(f'Salário Liquido: R$ {salario_liquido}')

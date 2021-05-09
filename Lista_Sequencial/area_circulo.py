@@ -1,4 +1,4 @@
-def area_circulo (r:float):
+def area_circulo(r: float):
     """
     6-    Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
@@ -12,4 +12,4 @@ def area_circulo (r:float):
     :return:  Area do circulo - float
     """
 
-    return (3.14*(r*r))
+    return (3.14 * (r * r))

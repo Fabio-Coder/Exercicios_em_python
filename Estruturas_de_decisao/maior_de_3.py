@@ -1,4 +1,4 @@
-def maior_de_3(n1,n2,n3):
+def maior_de_3(n1, n2, n3):
     """
     6- Faça um Programa que leia três números e mostre o maior deles.
     >>> maior_de_3(1,2,3)
@@ -17,8 +17,8 @@ def maior_de_3(n1,n2,n3):
     """
 
     if n1 > n2 > n3:
-        print (n1)
+        print(n1)
     elif n2 > n1 > n3:
-        print (n2)
+        print(n2)
     else:
         print(n3)

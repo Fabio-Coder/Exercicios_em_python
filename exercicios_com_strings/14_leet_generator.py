@@ -12,4 +12,3 @@ def leet_generator(frase):
     :param frase:
     :return:
     """
-

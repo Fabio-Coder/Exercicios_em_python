@@ -8,5 +8,5 @@ def exibe_numero():
     :param n:inteiro
     :return:
     """
-    n=input("Digite um número")
-    print('O número informado foi',n,'.')
+    n = input("Digite um número")
+    print('O número informado foi', n, '.')

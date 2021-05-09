@@ -1,4 +1,4 @@
-def anagrama_str(s:str):
+def anagrama_str(s: str):
     """
     recebe uma string e verifica se a mesma é um anagrama
     Ex:
@@ -14,7 +14,7 @@ def anagrama_str(s:str):
     """
 
     s_inv = ''
-    s = s.replace(" ","")
+    s = s.replace(" ", "")
     for x in range(1, len(s) + 1):
         s_inv += s[-(x - len(s))]
 

@@ -43,7 +43,6 @@ def tabajara(salario_atual):
     percentual = 0
     aumento = 0
 
-
     if salario_atual <= 200:
         salario_reajustado = salario_atual * 1.2
         percentual = 20

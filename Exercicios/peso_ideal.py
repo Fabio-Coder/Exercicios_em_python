@@ -9,4 +9,4 @@ def peso_ideal(altura):
     :return:
     """
 
-    print(round(((72.7 * altura) - 58),2))
+    print(round(((72.7 * altura) - 58), 2))

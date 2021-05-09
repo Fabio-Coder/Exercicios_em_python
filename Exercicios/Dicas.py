@@ -1,4 +1,4 @@
-def soma(n1,n2):
+def soma(n1, n2):
     """
     Funcao que soma dois inteiros
     Ex:
@@ -12,5 +12,4 @@ def soma(n1,n2):
     :param n1: inteiro
     :param n2: inteiro
     """
-    print(n1+n2)
-
+    print(n1 + n2)

@@ -1,4 +1,4 @@
-def soma(x,y):
+def soma(x, y):
     """
     Retorna a soma de dois valores
     Ex:
@@ -11,4 +11,4 @@ def soma(x,y):
     :param y: inteiro
     :return: inteiro
     """
-    return(x+y)
+    return (x + y)

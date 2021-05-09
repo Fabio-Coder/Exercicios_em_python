@@ -19,11 +19,11 @@ def joao(peso: float):
     :return:
     """
 
-    excesso=0
+    excesso = 0
 
     if peso > 50:
         excesso = peso - 50
-        
+
     multa = excesso * 4.0
 
     print('excesso:', excesso)

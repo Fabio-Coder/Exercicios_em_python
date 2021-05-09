@@ -7,5 +7,5 @@ def metros_2_cent(n):
     :param n:float
     :return:float
     """
-    
-    return (n*100)
+
+    return (n * 100)

@@ -1,5 +1,6 @@
 import timeit
 
+
 def contar_caracteres(s):
     """
     Funcao que conta os caracteres de uma string
@@ -12,16 +13,15 @@ def contar_caracteres(s):
     :param s: string a ser contada
 
     """
-    resultado={}
+    resultado = {}
 
     for caracter in s:
-        #Essas 3 linhas no for podem ser substituidas por: resultado[caracter] = resultado.get(caracter,0) + 1
-        contagem = resultado.get(caracter,0)
+        # Essas 3 linhas no for podem ser substituidas por: resultado[caracter] = resultado.get(caracter,0) + 1
+        contagem = resultado.get(caracter, 0)
         contagem += 1
         resultado[caracter] = contagem
 
     return resultado
-
 
 
 if __name__ == '__main__':

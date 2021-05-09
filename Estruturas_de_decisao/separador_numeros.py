@@ -103,5 +103,4 @@ def separador_numeros(numero: int):
             if tem_unidade:
                 string_valor += string_unidade
 
-
     print(string_valor)

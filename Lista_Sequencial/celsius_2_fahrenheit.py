@@ -1,4 +1,4 @@
-def celsius_2_fahrenheit (temperatura_c:float):
+def celsius_2_fahrenheit(temperatura_c: float):
     """
     10-    Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 
@@ -17,6 +17,6 @@ def celsius_2_fahrenheit (temperatura_c:float):
     :return:
     """
 
-    fahrenheit = (temperatura_c * 9/5) + 32
+    fahrenheit = (temperatura_c * 9 / 5) + 32
 
-    return (round(fahrenheit,3))
+    return (round(fahrenheit, 3))

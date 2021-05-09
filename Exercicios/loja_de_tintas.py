@@ -1,5 +1,6 @@
 from math import ceil
 
+
 def loja_de_tintas(area: int):
     """
     17- Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser
@@ -55,4 +56,5 @@ def loja_de_tintas(area: int):
 
     print(f'Você precisará de {apenas_lata} lata(s), num custo total de: R${apenas_lata * preco_lata}')
     print(f'Você precisará de {apenas_galao} galão(ões), num custo total de: R${apenas_galao * preco_galao}')
-    print(f'Você precisará de {quantidade_lata} lata(s) e {quantidade_galao} galão(ões), num custo total de {(quantidade_lata * preco_lata) + (quantidade_galao * preco_galao)}')
+    print(
+        f'Você precisará de {quantidade_lata} lata(s) e {quantidade_galao} galão(ões), num custo total de {(quantidade_lata * preco_lata) + (quantidade_galao * preco_galao)}')

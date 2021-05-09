@@ -33,14 +33,16 @@ class BombaDeCombustivel:
             print('Não há combustivel suficiente na bomba')
         else:
             self.alterarQuantidadeCombustivel(self.quantidadeCombustivel - self.litrosAbastecidos)
-            print(f'foram abastecidos {self.litrosAbastecidos} litros de {self.tipoCombustivel} num total de R${self.valorLitro * self.litrosAbastecidos}.')
+            print(
+                f'foram abastecidos {self.litrosAbastecidos} litros de {self.tipoCombustivel} num total de R${self.valorLitro * self.litrosAbastecidos}.')
 
     def abastecerPorLitro(self, litros):
         self.quantidadeLitrosAbastecidos = litros
         self.valorAbastecimento = litros * self.valorLitro
         if self.quantidadeCombustivel > litros:
             self.alterarQuantidadeCombustivel(self.quantidadeCombustivel - litros)
-            print(f'foram abastecidos {self.quantidadeLitrosAbastecidos} litros de {self.tipoCombustivel} num total de R${self.valorAbastecimento}.')
+            print(
+                f'foram abastecidos {self.quantidadeLitrosAbastecidos} litros de {self.tipoCombustivel} num total de R${self.valorAbastecimento}.')
         else:
             print('Não é possivel abastecer essa quantidade de combustivel.')
 

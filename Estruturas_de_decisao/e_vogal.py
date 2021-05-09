@@ -12,9 +12,9 @@ def e_vogal(caractere):
     """
 
     letra = caractere.upper()
-    vogais = ['A','E','I','O','U']
+    vogais = ['A', 'E', 'I', 'O', 'U']
 
     if letra in vogais:
-        print ('Vogal')
+        print('Vogal')
     else:
-        print ('Consoante')
+        print('Consoante')
