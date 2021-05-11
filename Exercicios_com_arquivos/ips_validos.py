@@ -18,14 +18,14 @@ def ip_valido():
             ips_nao_validos.append(i)
 
     saida = open("lista_ips.txt", "w")
-    saida.write('[Enderecos validos:]\n')
+    saida.write('Enderecos validos:\n')
 
     for i in ips_validos:
         saida = open("lista_ips.txt", "a")
         saida.write(i)
 
     saida = open("lista_ips.txt", "a")
-    saida.write('[Enderecos invalidos:]\n')
+    saida.write('Enderecos invalidos:\n')
 
     for i in ips_nao_validos:
         saida = open("lista_ips.txt", "a")
