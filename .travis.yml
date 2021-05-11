@@ -5,4 +5,3 @@ install:
   - pip install -q -r requirements.txt
 script:
   - flake8
-  - pytest Exercícios_em_python
