@@ -18,12 +18,9 @@ def loja_de_tintas(area):
     Valor total: R$ 265.0
 
     :param area: area a ser pintada : int
-    :return: 
     """
 
     area_com_folga = area + (area / 100 * 10)
-    rendimento_galao = 3.6 * 6  # 21.6 metros
-    rendimento_lata = 18 * 6  # 108 metros
     quantidade_de_litros = ceil(area_com_folga / 6)
     quantidade_latas = 0
     quantidade_galoes = 0

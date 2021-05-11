@@ -16,7 +16,6 @@ def espacos_e_vogais(frase):
     espacos = frase.count(' ')
     vogais_na_frase = []
     vogais = ['a', 'e', 'i', 'o', 'u']
-    vogais_dct = {}
 
     for _ in range(len(frase)):
         if frase[_] in vogais:

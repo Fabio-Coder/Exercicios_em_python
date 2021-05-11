@@ -8,6 +8,7 @@ def ip_valido():
     ip_sem_formatar = []
     ips_validos = []
     ips_nao_validos = []
+    quebra_de_linha = '\n'
     for linha in arquivo:
         ip_sem_formatar.append(linha)
 
@@ -18,14 +19,16 @@ def ip_valido():
             ips_nao_validos.append(i)
 
     saida = open("lista_ips.txt", "w")
-    saida.write('Enderecos validos:\n')
+    saida.write('[Enderecos validos:]')
+    saida.write(quebra_de_linha)
 
     for i in ips_validos:
         saida = open("lista_ips.txt", "a")
         saida.write(i)
 
     saida = open("lista_ips.txt", "a")
-    saida.write('Enderecos invalidos:\n')
+    saida.write('[Enderecos invalidos:]')
+    saida.write(quebra_de_linha)
 
     for i in ips_nao_validos:
         saida = open("lista_ips.txt", "a")

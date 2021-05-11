@@ -1,6 +1,3 @@
-import timeit
-
-
 def contar_caracteres(s):
     """
     Funcao que conta os caracteres de uma string

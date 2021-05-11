@@ -53,7 +53,7 @@ def forca():
         if letra in letras_digitadas:
             print("Você já digitou essa letra!")
         else:
-            if not letra in palavra:
+            if letra not in palavra:
                 erros += 1
                 desenha_forca(erros)
                 if erros < 6:
